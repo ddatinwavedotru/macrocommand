@@ -87,7 +87,6 @@ std::shared_ptr<IRotatingObject> for_unreadable_angle_object() {
     return obj;
 }
 
-// Попытка сдвинуть объект, у которого невозможно прочитать положение в пространстве, приводит к ошибке
 TEST(starship, for_unreadable_angle_object_rotate_is_error) {
     auto obj=for_unreadable_angle_object();
     EXPECT_THROW(executeRotate(obj),std::bad_optional_access);
