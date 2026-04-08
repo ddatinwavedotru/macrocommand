@@ -1,10 +1,10 @@
 # macrocommand
-otus homework on stable abstractions
+otus homework on macrocommands
 
 ![CMake](https://github.com/ddatinwavedotru/macrocommand/actions/workflows/cmake-multi-platform.yml/badge.svg)
 ![Coverage](coverage.svg)
 
-A C++ project with CMake, Google Test, and code coverage on creating stable abstractions.
+A C++ project with CMake, Google Test, and code coverage on creating macrocommands.
 
 ## Building
 
