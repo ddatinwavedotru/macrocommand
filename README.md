@@ -1,7 +1,7 @@
-# stable_starship_abstractions
+# macrocommand
 otus homework on stable abstractions
 
-![CMake](https://github.com/ddatinwavedotru/stable_starship_abstractions/actions/workflows/cmake-multi-platform.yml/badge.svg)
+![CMake](https://github.com/ddatinwavedotru/macrocommand/actions/workflows/cmake-multi-platform.yml/badge.svg)
 ![Coverage](coverage.svg)
 
 A C++ project with CMake, Google Test, and code coverage on creating stable abstractions.

@@ -22,6 +22,14 @@ public:
 
 };
 
+class IVelocityAccessObject {
+public:
+    virtual ~IVelocityAccessObject(){}
+    virtual Vector velocity() const =0;
+    virtual void set_velocity(Vector const & v)=0;
+    virtual bool hasVelocity() const =0;
+};
+
 class IRotatingObject {
 public:
     virtual ~IRotatingObject(){}
